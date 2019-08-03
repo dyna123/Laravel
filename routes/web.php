@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+Route::get('/about', function () {
+    $nama = "Idham Kholid";
+    return view('about', ['nama' => $nama]);
 });
