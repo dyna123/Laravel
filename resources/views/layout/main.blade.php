@@ -28,7 +28,7 @@
             </div>
         </div>
     </nav>
-    @yield('container');
+    @yield('container')
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
