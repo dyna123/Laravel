@@ -1,5 +1,7 @@
 <?php
 
+// use Illuminate\Routing\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,10 +13,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/about', function () {
-    $nama = "Idham Kholid";
-    return view('about', ['nama' => $nama]);
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
+// Route::get('/about', function () {
+//     $nama = "Idham Kholid";
+//     return view('about', ['nama' => $nama]);
+// });
+
+Route::get('/', 'PagesController@home');
+Route::get('/about', 'PagesController@about');
