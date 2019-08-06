@@ -1,0 +1,17 @@
+        //how to insert a data to database with laravel
+
+        // $student = new Student;
+        // $student->nama = $request->nama;
+        // $student->NIM = $request->NIM;
+        // $student->email = $request->email;
+        // $student->jurusan = $request->jurusan;
+
+        // $student->save();
+        // Student::create([
+        //     'nama' => $request->nama,
+        //     'NIM' => $request->NIM,
+        //     'email' => $request->email,
+        //     'jurusan' => $request->jurusan
+        // ]);
+
+        //Student::create($request->all());
